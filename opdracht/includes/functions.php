@@ -2,13 +2,15 @@
 
 function getInput()
 {
-  
     $input = $_GET['input'] ?? 'vul een waarde in hierboven en klik op [check]';
-    // echo var_dump($input); // Dit returned altijd string
-    // echo gettype($input); // Dit returned altijd string
-
-    // Er zijn andere manieren om te check wat het type is
-    // Maar die zijn niet besproken in de opdrachten
+    if ($input === 'true') {
+        $input = true; // hiermee maak je van string 'true' boolean true
+    } en dan vanaf hier verder met else if ("false")
+    
+    // met is_numeric() kan je checken of een string een int is
+    // als is_nummeric true is, string omzetten naar int met bijvoorbeeld intval()
+    // als is_numeric false is, niks doen met $input
+    echo var_dump($input);
 }
 
 
