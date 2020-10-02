@@ -8,7 +8,7 @@
   </head>
   <body>
     <form action="producten.php" method="get"><!-- dit laten staan! -->
-
+    
     <p>Hieronder een lijst met producten die je bij ons kunt bestellen en de prijs per stuk:</p>
         <table>
             <tr>

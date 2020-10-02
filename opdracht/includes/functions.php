@@ -2,8 +2,13 @@
 
 function getInput()
 {
+  
     $input = $_GET['input'] ?? 'vul een waarde in hierboven en klik op [check]';
-    echo $input;
+    // echo var_dump($input); // Dit returned altijd string
+    // echo gettype($input); // Dit returned altijd string
+
+    // Er zijn andere manieren om te check wat het type is
+    // Maar die zijn niet besproken in de opdrachten
 }
 
 
